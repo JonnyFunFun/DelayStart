@@ -1,0 +1,20 @@
+## DelayStart ##
+#### Simple C# command line utility to launch a program after a delay ####
+
+DelayStart is a super-simple command-line utility written in C#.  It launches a certain program (with or without arguments) after a certain delay.  It was written in about 5 minutes for me to have a simple way to delay launching startup items on a server.
+
+## Using the program ##
+
+DelayStart requires two arguments, and has one optional argument.  The first argument it the delay (in seconds) to wait before launching the program.  The second argument is the program to launch.  If you are launching the program with arguments, _do not_ put them in this argument.  Instead, use the third, optional argument for this.
+
+    Delays the start of a program
+
+    DELAYSTART time program [arguments]
+
+      time          The amount of time to wait before running the program (in seconds).
+      program       The program to run after the delay.
+      arguments     Optional arguments to be passed to the application.
+
+## License ##
+
+DelayStart is released under the MIT License and is copyright &copy; 2011 Jonathan Enzinna.  A copy of the license is available in the LICENSE file.
